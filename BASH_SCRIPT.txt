@@ -1,4 +1,5 @@
 !/bin/bash
+yum timedatectl set-timezone America/New_York
 yum update -y
 yum install python3 -y
 pip3 install --upgrade pip 
