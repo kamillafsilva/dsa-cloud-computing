@@ -1,8 +1,8 @@
 !/bin/bash
-yum timedatectl set-timezone America/New_York
-yum update -y
-yum install python3 -y
-pip3 install --upgrade pip 
-pip install --upgrade pip
-pip install pandas
-pip install numpy
+sudo timedatectl set-timezone America/New_York
+sudo apt-get update
+sudo apt-get install python3
+sudo apt install python3-pip
+python3 -m venv my-venv
+my-venv/bin/pip install pandas
+my-venv/bin/pip install numpy
