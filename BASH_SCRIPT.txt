@@ -3,6 +3,7 @@ sudo timedatectl set-timezone America/New_York
 sudo apt-get update
 sudo apt-get install python3
 sudo apt install python3-pip
+sudo apt install python3-venv
 python3 -m venv my-venv
 my-venv/bin/pip install pandas
 my-venv/bin/pip install numpy
